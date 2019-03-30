@@ -14,7 +14,7 @@ Gem::Specification.new do |s|
   s.files                  = Dir.glob('{bin,lib}/**/*') + %w(LICENSE README.md CHANGELOG.md)
   s.homepage               = 'https://github.com/sensu-plugins/sensu-plugins-environmental-checks'
   s.license                = 'MIT'
-  s.metadata               = { 'maintainer'         => '',
+  s.metadata               = { 'maintainer'         => 'sensu-plugin',
                                'development_status' => 'active',
                                'production_status'  => 'unstable - testing recommended',
                                'release_draft'      => 'false',
@@ -30,8 +30,7 @@ Gem::Specification.new do |s|
 
   s.add_runtime_dependency 'sensu-plugin', '~> 1.2'
 
-  s.add_development_dependency 'bundler', '~> 1.7'
-  s.add_development_dependency 'codeclimate-test-reporter', '~> 1.0'
+  s.add_development_dependency 'bundler', '~> 2.0'
   s.add_development_dependency 'github-markup',             '~> 3.0'
   s.add_development_dependency 'pry',                       '~> 0.10'
   s.add_development_dependency 'rake',                      '~> 10.5'
